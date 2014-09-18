@@ -61,6 +61,19 @@ body {
   background-color: rgba(204, 204, 204, 0);
 }
 
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active{
+	color:rgba(255,255,255,1.00);
+	transition: all 250ms linear;
+}
+
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active{
+	background-color:rgba(255,255,255,0.4);
+}
+
 .chart__link,
 .chart__link:link,
 .chart__link:visited {
@@ -94,11 +107,10 @@ body {
   background-color: rgba(127, 219, 255, 0.6);
 }
 
-.chart__item:hover,
-.chart__item:focus,
-.chart__item:active{
-	background-color:rgba(255,255,255,0.4);
-	transition: background-color 250ms linear;
+.chart__bar:hover,
+.chart__bar:focus,
+.chart__bar:active{
+	background-color:rgba(127,225,244,1.00);
 }
 
 .chart__count {
