@@ -126,6 +126,7 @@ body {
   opacity: 0;
 
   text-align: center;
+  transition: opacity 250ms linear, top 300ms linear;
 }
 
 .chart__item:hover .chart__count{
