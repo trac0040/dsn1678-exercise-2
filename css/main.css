@@ -64,7 +64,8 @@ body {
 .chart__item:hover,
 .chart__item:focus,
 .chart__item:active{
-	background-color:rgba(255,255,255,0.2);
+	background-color:rgba(255,255,255,0.6);
+	color:rgba(183,52,55,1.00);
 	transition: all 250ms linear;
 }
 
@@ -85,9 +86,7 @@ body {
   text-align: center;
 }
 
-.chart__label:hover,
-.chart__label:focus,
-.chart__label:active{
+.chart__item:hover .chart__label{ /*this makes the text within it change without hovering directly over it*/
 	color:rgba(255,255,255,1.00);
 }
 
@@ -104,14 +103,13 @@ body {
   right: 0;
   top: 0;
 
-  background-color: rgba(127, 219, 255, 0.6);
+  background-color: rgba(127, 219, 255, 0.5);
 }
 
-.chart__bar:hover,
-.chart__bar:focus,
-.chart__bar:active{
+.chart__item:hover .chart__bar{
 	background-color:rgba(127,225,244,1.00);
 }
+
 
 .chart__count {
   display: inline-block;
