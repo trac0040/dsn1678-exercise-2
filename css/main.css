@@ -64,14 +64,8 @@ body {
 .chart__item:hover,
 .chart__item:focus,
 .chart__item:active{
-	color:rgba(255,255,255,1.00);
+	background-color:rgba(255,255,255,0.2);
 	transition: all 250ms linear;
-}
-
-.chart__item:hover,
-.chart__item:focus,
-.chart__item:active{
-	background-color:rgba(255,255,255,0.4);
 }
 
 .chart__link,
@@ -89,6 +83,12 @@ body {
   width: 100%;
 
   text-align: center;
+}
+
+.chart__label:hover,
+.chart__label:focus,
+.chart__label:active{
+	color:rgba(255,255,255,1.00);
 }
 
 .chart__bar-wrap {
