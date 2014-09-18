@@ -64,7 +64,7 @@ body {
 .chart__item:hover,
 .chart__item:focus,
 .chart__item:active{
-	background-color:rgba(255,255,255,0.6);
+	background-color:#8a8d9e;
 	color:rgba(183,52,55,1.00);
 	transition: all 250ms linear;
 }
